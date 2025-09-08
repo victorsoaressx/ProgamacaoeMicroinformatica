@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+
+<html>
+    
+    <head>
+        <title>Formulario</title>
+    </head>
+
+    <body>
+        <!--cabeçalho-->
+        <header>
+            <h1>Formulario</h1>
+            <p>Preencha os campos abaixo:</p><br>
+        </header>
+
+        <!--conteudo principal-->
+        <main>
+            <form>
+                <fieldset>
+                    <legend>
+                        <h2> Informações pessoais</h2>
+                    </legend><br>
+
+                        <label for="nome">Nome e Sobrenome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite o seu nome"><br><br>
+
+                        <label for="nescimento">Data de nascimento:</label>
+                        <input type="date" id="nascimento" name="nascimento"><br><br>
+
+                        <label for="genero">Genero:</label>
+                        <input type="radio" value="masculino" id="genero" name="genero">
+                        <label for="genero">Masculino</label>
+
+                        <input type="radio" value="feminino" id="genero" name="genero">
+                        <label for="genero">Feminino</label><br><br>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>
+                        <h2>Informações de cadastro:</h2>
+                    </legend><br>
+
+                        <label for="e-mail">Digite o seu e-mail:</label>
+                        <input type="email" id="e-mail" nome="e-mail" placeholder="Informe o seu e-mail"><br><br>
+
+                        <label for="senha">Digite sua senha:</label>
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha"><br><br>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>
+                        <h2>Interesses:</h2>
+                    </legend>
+                        <input type="checkbox" value="Estudar Programação" id="op1" name="opcoes">
+                        <label for="op1">Estudar Programação</label><br>
+
+                        <input type="checkbox" value="Jogar video game" id="op2" name="opcoes">
+                        <label for="op2">Jogar video game</label><br>
+
+                        <input type="checkbox" value="Ler quadrinhos" id="op3" name="opcoes">
+                        <label for=" op3">Ler quadrinhos</label><br>
+
+                        <input type="checkbox" value="Viajar" id="op4" name="opcoes">
+                        <label for="op4">Viajar</label><br><br>
+                </fieldset>
+            </form><br>
+
+            <section>
+                <form>
+                    <button onclick="alert('Resultados enviados!')">Enviar respostas</button>
+                </form>
+            </section>
+
+
+        </main>
+
+        <!--rodapé-->
+        <footer></footer>
+    </body>
+    
+   
+    
+</html>
